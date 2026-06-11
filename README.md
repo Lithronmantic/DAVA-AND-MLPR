@@ -43,5 +43,4 @@ python scripts/eval_enhanced.py --config configs/config.yaml --checkpoint output
 authorized to redistribute or mirror the raw data,interested readers should obtain
 the dataset directly from the original provider.
 - This package is intended for the proposed method path only.
-- This project is currently undergoing peer review. Once the paper is accepted, we will further refine the codebase.
 - The gradient update in the original network relies on GPU computing power during training. If you encounter an “Out Of Memory Error: CUDA out of memory” or similar error during runtime, please stop the process and adjust the settings based on your computer's computing power.
