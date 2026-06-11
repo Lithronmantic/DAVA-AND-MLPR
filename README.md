@@ -1,7 +1,5 @@
 # DAVA AND MLPR
 
-This package contains the runtime code for the proposed method.
-
 ## Included
 
 - model definition
@@ -27,13 +25,13 @@ This package contains the runtime code for the proposed method.
 ## Training
 
 ```bash
-python scripts/strong_trainer.py --config configs/config.yaml --output outputs/run_ours
+python scripts/strong_trainer.py  --output outputs/run_ours
 ```
 
 ## Evaluation
 
 ```bash
-python scripts/eval_enhanced.py --config configs/config.yaml --checkpoint outputs/checkpoints/best_f1.pth --output outputs/eval_ours
+python scripts/eval_enhanced.py  --checkpoint outputs/checkpoints/best_f1.pth --output outputs/eval_ours
 ```
 
 ## Notes
