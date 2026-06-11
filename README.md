@@ -16,12 +16,6 @@
 - benchmark runners
 - plotting and reviewer-only utilities
 
-## Main Files
-
-- `scripts/strong_trainer.py`
-- `scripts/eval_enhanced.py`
-- `configs/config.yaml`
-
 ## Training
 
 ```bash
